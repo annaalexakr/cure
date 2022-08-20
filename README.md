@@ -1,2 +1,3 @@
-# cure
-A transparent curation algorithm
+# Cure
+
+A transparent curation algorithm which is sybil resistant and can be used to fund public goods meaningfully.
