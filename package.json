@@ -1,0 +1,33 @@
+{
+    "name": "the-infinite-garden",
+    "version": "0.0.1",
+    "description": "Growing public goods",
+    "private": true,
+    "workspaces": ["packages/*"],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/annaalexakr/cure.git"
+    },
+    "keywords": [
+      "signatures",
+      "meaning",
+      "stewardship"
+    ],
+    "author": "annaalexakr, andytudhope",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/annaalexakr/cure/issues"
+    },
+    "homepage": "https://github.com/annaalexakr/cure#readme",
+    "scripts": {
+        "garden:start": "yarn workspace garden start",
+        "garden:build": "yarn workspace garden build",
+        "garden:test": "yarn workspace garden test",
+        "hardhat:clean": "yarn workspace hardhat clean",
+        "hardhat:compile": "yarn workspace hardhat compile",
+        "hardhat:watch": "yarn workspace hardhat watch",
+        "hardhat:localnode": "yarn workspace hardhat localnode",
+        "hardhat:test": "yarn workspace hardhat test",
+        "hardhat:coverage": "yarn workspace hardhat coverage"
+    }
+}

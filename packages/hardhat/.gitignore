@@ -1,0 +1,15 @@
+node_modules
+artifacts
+cache
+coverage*
+package-lock.json
+.openzeppelin
+
+# hardhat-deploy localhost results
+deployments/localhost/*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
